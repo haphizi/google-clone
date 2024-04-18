@@ -1,0 +1,63 @@
+.main {
+  margin-top: 100px;
+  /* text-align: center; allow the child els inside to be center align */
+}
+
+.logo-img {
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  line-height: 24px;
+}
+
+.btn {
+  /* width: 120px; doesn't need because button has width by default */
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 30px;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  background: #dfe1e5;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+    NOTE: criteria to center with margins...
+    1. display needs to be block, so the el have full control of its spacing on the left and right side.
+    2. must have a width, canot be wider than browser itself
+    3. set margin left and right to auto; this is to make space foe the left margin and right margin
+
+    margin add space on outside of el, padding add space within of border el but outside of content
+
+    NOTE: for flexbox,
+    it needs a parent container, that controls the alignment of the children
+
+    recap:
+    - css syntax
+    - inline vs block
+    - margins
+    - padding
+    - borders
+    - divs
+    - classes
+    - centering
+    - flexbox
+*/
